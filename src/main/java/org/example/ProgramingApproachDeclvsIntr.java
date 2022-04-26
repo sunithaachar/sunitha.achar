@@ -30,6 +30,9 @@ public class ProgramingApproachDeclvsIntr{
                 new ProgramingApproachDeclvsIntr.Person("FEMALE","APARNA"),
                 new ProgramingApproachDeclvsIntr.Person("FEMALE","MANJU"),
                new ProgramingApproachDeclvsIntr.Person("MALE","AMIT"));
+               new ProgramingApprochDeclcsIntr.Person("MALE", "YUVA");
+                 new ProgramingApprochDeclcsIntr.Person("FEMALE", "BHOOMIKA");
+                
 
 
        //Imperative
