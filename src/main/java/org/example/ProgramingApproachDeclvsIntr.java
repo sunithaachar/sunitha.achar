@@ -27,9 +27,9 @@ public class ProgramingApproachDeclvsIntr{
     }
     public static void main(String args[]){
        List<Person> person=List.of(new ProgramingApproachDeclvsIntr.Person("MALE","SAURAV"),
-                new ProgramingApproachDeclvsIntr.Person("FEMALE","APARNA"),
-                new ProgramingApproachDeclvsIntr.Person("FEMALE","MANJU"),
-               new ProgramingApproachDeclvsIntr.Person("MALE","AMIT"));
+                new ProgramingApproachDeclvsIntr.Person("FEMALE","SITA"),
+                new ProgramingApproachDeclvsIntr.Person("FEMALE","RENU"),
+               new ProgramingApproachDeclvsIntr.Person("MALE","RAM"));
 
 
        //Imperative
