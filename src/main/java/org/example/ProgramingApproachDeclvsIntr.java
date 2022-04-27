@@ -9,12 +9,18 @@ public class ProgramingApproachDeclvsIntr{
 
     static class Person{
 
-        private String gender;
         private String name;
+        private String gender;
+        private int age;
 
         public Person(String gender, String name) {
             this.gender = gender;
             this.name = name;
+        }
+        public Person(String name, String gender, int age){
+            this.name = name;
+            this.gender = gender;
+            this.age = age;
         }
 
         @Override
@@ -22,9 +28,13 @@ public class ProgramingApproachDeclvsIntr{
             return "Person{" +
                     "gender='" + gender + '\'' +
                     ", name='" + name + '\'' +
+                    ", age = " + age +
                     '}';
         }
     }
+
+
+
     public static void main(String args[]){
        List<Person> person=List.of(new ProgramingApproachDeclvsIntr.Person("MALE","SAURAV"),
                 new ProgramingApproachDeclvsIntr.Person("FEMALE","APARNA"),
