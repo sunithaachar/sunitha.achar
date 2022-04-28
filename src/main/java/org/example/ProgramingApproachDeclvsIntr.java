@@ -28,8 +28,11 @@ public class ProgramingApproachDeclvsIntr{
     public static void main(String args[]){
        List<Person> person=List.of(new ProgramingApproachDeclvsIntr.Person("MALE","SAURAV"),
                 new ProgramingApproachDeclvsIntr.Person("FEMALE","APARNA"),
-                new ProgramingApproachDeclvsIntr.Person("FEMALE","MANJU"),
-               new ProgramingApproachDeclvsIntr.Person("MALE","AMIT"));
+                new ProgramingApproachDeclvsIntr.Person("MALE","AMIT"));
+                new ProgramingApproachDeclvsIntr.Person("FEMALE","ANU"),
+                new ProgramingApproachDeclvsIntr.Person("FEMALE","RAJU"),
+               new ProgramingApproachDeclvsIntr.Person("MALE","GUGHAN"));
+                System.out.println("My First Code changes");
 
 
        //Imperative
