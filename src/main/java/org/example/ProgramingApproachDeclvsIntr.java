@@ -13,16 +13,18 @@ public class ProgramingApproachDeclvsIntr{
         private String gender;
         private int age;
         private float income;
+        private long bankDetails;
 
         public Person(String gender, String name) {
             this.gender = gender;
             this.name = name;
         }
-        public Person(String name, String gender, int age, float income){
+        public Person(String name, String gender, int age, float income, long bankDetails){
             this.name = name;
             this.gender = gender;
             this.age = age;
             this.float =float;
+            this.bankDettails = bankDetails;
         }
 
         @Override
