@@ -12,15 +12,17 @@ public class ProgramingApproachDeclvsIntr{
         private String name;
         private String gender;
         private int age;
+        private float income;
 
         public Person(String gender, String name) {
             this.gender = gender;
             this.name = name;
         }
-        public Person(String name, String gender, int age){
+        public Person(String name, String gender, int age, float income){
             this.name = name;
             this.gender = gender;
             this.age = age;
+            this.float =float;
         }
 
         @Override
@@ -28,7 +30,8 @@ public class ProgramingApproachDeclvsIntr{
             return "Person{" +
                     "gender='" + gender + '\'' +
                     ", name='" + name + '\'' +
-                    ", age = " + age +
+                    ", age = " + age + '\'' +
+                ", income = " + income +
                     '}';
         }
     }
