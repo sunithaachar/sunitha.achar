@@ -37,16 +37,16 @@ public class ProgramingApproachDeclvsIntr{
 
     public static void main(String args[]){
        List<Person> person=List.of(new ProgramingApproachDeclvsIntr.Person("MALE","SAURAV"),
-                new ProgramingApproachDeclvsIntr.Person("FEMALE","APARNA"),
-                new ProgramingApproachDeclvsIntr.Person("FEMALE","MANJU"),
-               new ProgramingApproachDeclvsIntr.Person("MALE","AMIT"));
+                new ProgramingApproachDeclvsIntr.Person("FEMALE","SITA"),
+                new ProgramingApproachDeclvsIntr.Person("FEMALE","RENU"),
+               new ProgramingApproachDeclvsIntr.Person("MALE","RAM"));
 
 
        //Imperative
         //loop to take out females from the list of persons
         List<Person> personfemale=new ArrayList<>();
 
-        System.out.println("Imperative programing");
+        System.out.println("Imperative programing from my lab");
         for(Person p:person){ //
             if("FEMALE".equalsIgnoreCase(p.gender)) //
             personfemale.add(p);
