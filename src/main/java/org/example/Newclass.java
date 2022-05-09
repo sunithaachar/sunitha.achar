@@ -4,26 +4,26 @@ import java.util.Scanner;
 
 public class Newclass {
     public static void main(String[] args) {
-        System.out.println("Enter a number a");
+        System.out.println("Enter a number x");
         Scanner scn = new Scanner(System.in);
-        int a = scn.nextInt();
+        int x = scn.nextInt();
 
-        System.out.println("Enter a number b");
+        System.out.println("Enter a number y");
         Scanner scn1 = new Scanner(System.in);
-        int b = scn1.nextInt();
+        int y = scn1.nextInt();
 
 
-        Greater(a,b);
-        System.out.println("Enter the age c");
+        Greater(x,y);
+        System.out.println("Enter the age x");
         Scanner scn2 =new Scanner(System.in);
-        int c = scn2.nextInt();
-        System.out.println("Enter the age d");
+        int a = scn2.nextInt();
+        System.out.println("Enter the age y");
         Scanner scn3=new Scanner(System.in);
-        int d = scn3.nextInt();
-        System.out.println("Enter the age e");
+        int b = scn3.nextInt();
+        System.out.println("Enter the age c");
         Scanner scn4=new Scanner(System.in);
-        int e = scn4.nextInt();
-        OldAndYoung(c,d,e);
+        int c = scn4.nextInt();
+        OldAndYoung(a,b,c);
     }
     private static void Greater(int x,int y){
 
@@ -32,20 +32,20 @@ public class Newclass {
         else
             System.out.println("b: is the greater number");
     }
-    private static void OldAndYoung(int k,int g,int f){
-        if(k>g && k>f)
-            System.out.println("k: older age");
+    private static void OldAndYoung(int a,int b,int c){
+        if(a>b && a>c)
+            System.out.println("a: older age");
             else
-                System.out.println("K: is the youngest");
-            if(g>k && g>f)
-                System.out.println("g: is the older age");
+                System.out.println("b: is the youngest");
+            if(b>a && b>c)
+                System.out.println("a: is the older age");
             else
-                System.out.println("g: is the youngest");
-            if(f>k && f>g)
+                System.out.println("b: is the youngest");
+            if(c>a && c>b)
 
-                System.out.println("f:is the older age");
+                System.out.println("c:is the older age");
             else
-                System.out.println("f: is the youngest");
+                System.out.println("c: is the youngest");
 
     }
 
