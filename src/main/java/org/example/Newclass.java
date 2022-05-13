@@ -31,6 +31,11 @@ public class Newclass {
         Scanner scn6=new Scanner(System.in);
         int w =scn6.nextInt();
         LengthAndBreadth(l,w);
+        System.out.println("Enter any Character");
+        Scanner scn7=new Scanner(System.in);
+        char ch1=scn7.next().charAt(0);
+
+        UpperOrLowerCase( ch1);
     }
     private static void Greater(int x,int y){
 
@@ -81,7 +86,20 @@ public class Newclass {
             else
                 System.out.println("Its not a square");
         }
+    private static void UpperOrLowerCase(char ch){
+        //ch='v';
+       // int ch_int = (int) ch;
+       // System.out.println(ch_int);
 
+            if (ch >=65 && ch <=90){
+                System.out.println("Capital Letter");
+            } else if (ch >=97 && ch <=122) {
+                System.out.println("Lowercase Letter");
+
+            } else {
+                System.out.println("Something Else");
+        }
+}
 
 
     }
